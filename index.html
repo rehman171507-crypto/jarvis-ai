@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#061326"><meta name="description" content="JARVIS AI personal assistant">
+<title>JARVIS — Personal AI</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="stars"></div>
+<main class="app">
+<header class="top"><a class="brand" href="/"><span class="mark">J</span><span><b>J.A.R.V.I.S.</b><small>PERSONAL AI SYSTEM</small></span></a><span class="status"><i id="statusDot"></i><span id="statusText">CONNECTING</span></span></header>
+<section class="hero"><div class="eyebrow">PERSONAL INTELLIGENCE ONLINE</div><h1>At your service<span>.</span></h1><p>Your intelligent assistant. Ready to think, create, and help.</p>
+<div class="reactor" id="reactor"><div class="ring ring-a"></div><div class="ring ring-b"></div><div class="ring ring-c"></div><div class="energy"><span>J</span></div><small id="reactorLabel">INITIALIZING SYSTEM</small></div>
+<div class="shortcuts"><button data-prompt="Hello JARVIS. Introduce yourself briefly.">✦ Introduce yourself</button><button data-prompt="Help me organize my day with a practical plan.">◷ Plan my day</button><button data-prompt="Give me three creative ideas for a project.">⌁ Creative ideas</button></div></section>
+<section class="console"><div class="console-head"><div><b>SECURE AI CONSOLE</b><small>Private server connection</small></div><button id="clearBtn">Clear conversation</button></div>
+<div class="messages" id="messages" aria-live="polite"><div class="message assistant"><div class="avatar">J</div><div class="bubble"><label>JARVIS</label><p>Good day. My systems are ready. What can I help you with?</p></div></div></div>
+<div class="composer"><button class="mic" id="micBtn" title="Voice input" aria-label="Voice input">🎙</button><input id="messageInput" placeholder="Ask JARVIS anything…" autocomplete="off"><button class="send" id="sendBtn" aria-label="Send">➤</button></div>
+<div class="under"><span id="voiceHint">Voice input requires browser support and microphone permission.</span><label><input id="speakToggle" type="checkbox" checked> Speak replies</label></div></section>
+<footer><span>JARVIS AI <b>SECURE CONNECTION</b></span><span>BUILT FOR YOUR EVERYDAY IDEAS</span></footer>
+</main><script src="/app.js"></script>
+</body></html>
